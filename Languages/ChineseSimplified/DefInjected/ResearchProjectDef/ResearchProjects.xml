@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <BasicWeaponForging.label>基础刀剑锻造</BasicWeaponForging.label>
+    <BasicWeaponForging.description>制作基础刀剑.</BasicWeaponForging.description>
+
+    <MythicSword.label>神话刀剑</MythicSword.label>
+    <MythicSword.description>制作神话刀剑.</MythicSword.description>
+
+</LanguageData>

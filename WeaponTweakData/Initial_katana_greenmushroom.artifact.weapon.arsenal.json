@@ -1,0 +1,10 @@
+{
+  "TextureModID": "greenmushroom.artifact.weapon.arsenal",
+  "ItemDefName": "Initial_katana",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.3310558,
+  "BladeStart": -0.2095672,
+  "BladeEnd": 0.4738041,
+  "MeleeWeaponType": 6
+}
