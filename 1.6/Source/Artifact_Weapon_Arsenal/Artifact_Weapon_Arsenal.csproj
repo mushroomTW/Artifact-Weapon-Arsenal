@@ -53,7 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DamageChage.cs" />
+    <Compile Include="DamageSetting\DamageChage.cs" />
+    <Compile Include="DamageSetting\WeaponDamagePostProcessor.cs" />
     <Compile Include="ModSetting\ModSetting.cs" />
     <Compile Include="ModSetting\ModSettingUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -9,9 +9,6 @@
     <techLevel>Medieval</techLevel>
     <tab>GM_Research</tab>
 	  <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
-	  <!--<requiredResearchFacilities>
-      <li>CMC_CommConsole</li>
-    </requiredResearchFacilities>-->
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="GM_ResearchProjectBase">

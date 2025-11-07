@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using Artifact_Weapon_Arsenal.DamageSetting;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,12 @@ namespace Artifact_Weapon_Arsenal
             Instance = this;
         }
 
+        public override void WriteSettings()
+        {
+            base.WriteSettings();
+            WeaponDamagePostProcessor.ApplyMeleeDamageChange();
+        }
+
         public override string SettingsCategory()
         {
             return "AWAModSettingUITitle".Translate();
@@ -33,7 +40,7 @@ namespace Artifact_Weapon_Arsenal
             Text.Font = GameFont.Small;
             listingStandard.Label("MeleeDamageSetting".Translate());
             listingStandard.Label(AWAModSetting.MeleeDamage.ToString());
-            AWAModSetting.MeleeDamage=listingStandard.Slider(AWAModSetting.MeleeDamage, 0.50f, 10f);
+            AWAModSetting.MeleeDamage = listingStandard.Slider(AWAModSetting.MeleeDamage, 0.50f, 10f);
             AWAModSetting.MeleeDamage = (float)Math.Round(AWAModSetting.MeleeDamage, 2);
             Text.Font = GameFont.Tiny;
             if (listingStandard.ButtonText("RestoreDefaultSettings".Translate())) { aWAModSetting.InitData(); }

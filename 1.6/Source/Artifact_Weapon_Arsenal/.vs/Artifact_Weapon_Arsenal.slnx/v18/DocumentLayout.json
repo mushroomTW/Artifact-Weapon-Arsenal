@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\damagechage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:damagechage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\modsetting\\modsettingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:modsetting\\modsettingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\modsetting\\modsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\modsetting\\modsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:modsetting\\modsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\damagesetting\\damagechage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:damagesetting\\damagechage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\damagesetting\\weapondamagepostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:damagesetting\\weapondamagepostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ModSettingUI.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\ModSetting\\ModSettingUI.cs",
+              "RelativeDocumentMoniker": "ModSetting\\ModSettingUI.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\ModSetting\\ModSettingUI.cs",
+              "RelativeToolTip": "ModSetting\\ModSettingUI.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAzwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:59:57.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeaponDamagePostProcessor.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\DamageSetting\\WeaponDamagePostProcessor.cs",
+              "RelativeDocumentMoniker": "DamageSetting\\WeaponDamagePostProcessor.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\DamageSetting\\WeaponDamagePostProcessor.cs",
+              "RelativeToolTip": "DamageSetting\\WeaponDamagePostProcessor.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T09:39:46.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DamageChage.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\DamageChage.cs",
-              "RelativeDocumentMoniker": "DamageChage.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\DamageChage.cs",
-              "RelativeToolTip": "DamageChage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\DamageSetting\\DamageChage.cs",
+              "RelativeDocumentMoniker": "DamageSetting\\DamageChage.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\DamageSetting\\DamageChage.cs",
+              "RelativeToolTip": "DamageSetting\\DamageChage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T12:58:13.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ModSetting.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\ModSetting\\ModSetting.cs",
               "RelativeDocumentMoniker": "ModSetting\\ModSetting.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\ModSetting\\ModSetting.cs",
               "RelativeToolTip": "ModSetting\\ModSetting.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T10:34:42.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ModSettingUI.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\ModSetting\\ModSettingUI.cs",
-              "RelativeDocumentMoniker": "ModSetting\\ModSettingUI.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\ModSetting\\ModSettingUI.cs",
-              "RelativeToolTip": "ModSetting\\ModSettingUI.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwCYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T06:59:57.253Z",
               "EditorCaption": ""
             }
           ]
