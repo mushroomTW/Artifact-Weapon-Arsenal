@@ -1,0 +1,14 @@
+{
+  "TextureModID": "greenmushroom.artifact.weapon.arsenal",
+  "ItemDefName": "Wethermon_tachi",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.520689845,
+  "OffY": -0.0103444066,
+  "Rotation": -45.0,
+  "ScaleX": 1.6,
+  "ScaleY": 1.6,
+  "BladeStart": 0.113793738,
+  "BladeEnd": 1.45172429,
+  "MeleeWeaponType": 4
+}
