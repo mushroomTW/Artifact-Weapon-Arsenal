@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:modsetting\\modsettingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\damagesetting\\weapondamagepostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:damagesetting\\weapondamagepostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\modsetting\\modsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:modsetting\\modsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\damagesetting\\damagechage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\damagesetting\\damagechage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:damagesetting\\damagechage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\damagesetting\\weapondamagepostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:damagesetting\\weapondamagepostprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,27 +40,26 @@
               "RelativeDocumentMoniker": "ModSetting\\ModSettingUI.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\ModSetting\\ModSettingUI.cs",
               "RelativeToolTip": "ModSetting\\ModSettingUI.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAzwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwCwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T06:59:57.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "WeaponDamagePostProcessor.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\DamageSetting\\WeaponDamagePostProcessor.cs",
               "RelativeDocumentMoniker": "DamageSetting\\WeaponDamagePostProcessor.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\DamageSetting\\WeaponDamagePostProcessor.cs",
               "RelativeToolTip": "DamageSetting\\WeaponDamagePostProcessor.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAIwEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T09:39:46.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T09:39:46.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DamageChage.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\DamageSetting\\DamageChage.cs",
               "RelativeDocumentMoniker": "DamageSetting\\DamageChage.cs",
@@ -68,21 +67,19 @@
               "RelativeToolTip": "DamageSetting\\DamageChage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T12:58:13.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T12:58:13.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ModSetting.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\ModSetting\\ModSetting.cs",
               "RelativeDocumentMoniker": "ModSetting\\ModSetting.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\ModSetting\\ModSetting.cs",
               "RelativeToolTip": "ModSetting\\ModSetting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:34:42.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T10:34:42.258Z"
             }
           ]
         }

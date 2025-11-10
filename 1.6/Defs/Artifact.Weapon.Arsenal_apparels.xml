@@ -33,9 +33,6 @@
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.8</MoveSpeed>
-    </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>

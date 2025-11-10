@@ -14,5 +14,15 @@
     <Entei.tools.handle.label>刀柄</Entei.tools.handle.label>
 
     <Dianqing.label>靛青</Dianqing.label>
+    <Dianqing.description>靛青,攻击能使敌人陷入电磁状态,其巨大的刀刃让敌人望而生畏.</Dianqing.description>
+    <Dianqing.tools.point.label>刀尖</Dianqing.tools.point.label>
+    <Dianqing.tools.edge.label>刀刃</Dianqing.tools.edge.label>
+    <Dianqing.tools.handle.label>刀柄</Dianqing.tools.handle.label>
 
+    <Wethermon_tachi.label>衛札衛門的太刀</Wethermon_tachi.label>
+    <Wethermon_tachi.description>衛札衛門的太刀.</Wethermon_tachi.description>
+    <Wethermon_tachi.tools.point.label>刀尖</Wethermon_tachi.tools.point.label>
+    <Wethermon_tachi.tools.edge.label>刀刃</Wethermon_tachi.tools.edge.label>
+    <Wethermon_tachi.tools.handle.label>刀柄</Wethermon_tachi.tools.handle.label>
+    
 </LanguageData>

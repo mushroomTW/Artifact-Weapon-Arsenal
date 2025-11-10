@@ -43,7 +43,7 @@ namespace Artifact_Weapon_Arsenal
             AWAModSetting.MeleeDamage = listingStandard.Slider(AWAModSetting.MeleeDamage, 0.50f, 10f);
             AWAModSetting.MeleeDamage = (float)Math.Round(AWAModSetting.MeleeDamage, 2);
             Text.Font = GameFont.Tiny;
-            if (listingStandard.ButtonText("RestoreDefaultSettings".Translate())) { aWAModSetting.InitData(); }
+            if (listingStandard.ButtonText("reset".Translate())) { aWAModSetting.InitData(); }
             listingStandard.End();
         }
     }
