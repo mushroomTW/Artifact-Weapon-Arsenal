@@ -8,7 +8,7 @@
   <ResearchProjectDef Name="GM_ResearchProjectBase" Abstract="true">
     <techLevel>Medieval</techLevel>
     <tab>GM_Research</tab>
-	  <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="GM_ResearchProjectBase">

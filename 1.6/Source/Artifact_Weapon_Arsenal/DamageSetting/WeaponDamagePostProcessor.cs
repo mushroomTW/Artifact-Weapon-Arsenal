@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Verse;
 using RimWorld;
 
-namespace Artifact_Weapon_Arsenal.DamageSetting
+namespace Artifact_Weapon_Arsenal
 {
     [StaticConstructorOnStartup]
     internal class WeaponDamagePostProcessor

@@ -1,5 +1,4 @@
-﻿using Artifact_Weapon_Arsenal.DamageSetting;
-using RimWorld;
+﻿using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
 
-namespace Artifact_Weapon_Arsenal
+namespace Artifact_Weapon_Arsenal.ModSetting
 {
     [StaticConstructorOnStartup]
     public class AWAModSettingUI : Mod

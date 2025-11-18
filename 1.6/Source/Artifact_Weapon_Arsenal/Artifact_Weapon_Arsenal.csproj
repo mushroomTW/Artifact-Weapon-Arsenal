@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="DamageSetting\DamageChage.cs" />
     <Compile Include="DamageSetting\WeaponDamagePostProcessor.cs" />
+    <Compile Include="MeleeEffect\Ture_Flame.cs" />
     <Compile Include="ModSetting\ModSetting.cs" />
     <Compile Include="ModSetting\ModSettingUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
