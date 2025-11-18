@@ -8,13 +8,13 @@
         <aiCanUse>true</aiCanUse>
         <ai_IsIncendiary>true</ai_IsIncendiary>
         <!--<warmupStartSound>FireSpew_Warmup</warmupStartSound>-->
-        <warmupStartSound>MeleeHit_Metal_Blunt</warmupStartSound>
+        <warmupStartSound>AWA_Sound_boom_swoosh</warmupStartSound>
         <verbProperties>
             <verbClass>Verb_CastAbility</verbClass>
             <range>19</range>
             <warmupTime>0.5</warmupTime>
             <!--<soundCast>FireSpew_Resolve</soundCast>-->
-            <soundCast>MeleeHit_Metal_Blunt</soundCast>
+            <!--<soundCast>AWA_Sound_boom_swoosh</soundCast>-->
             <targetParams>
                 <canTargetLocations>true</canTargetLocations>
             </targetParams>

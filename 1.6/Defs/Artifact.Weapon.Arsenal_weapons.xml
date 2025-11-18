@@ -68,7 +68,7 @@
     <description>Entei's attacks can set enemies on fire, and his huge blade makes enemies afraid.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Weapons/Entei</texPath>
+      <texPath>Weapons/Entei3</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
