@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>Entei</defName>
+    <label>Entei</label>
+    <description>Entei's attacks can set enemies on fire, and his huge blade makes enemies afraid.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Weapons/Entei</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.3</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+
+    </weaponTags>
+    <statBases>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Flammability>0</Flammability>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>6</Mass>
+    </statBases>
+    <relicChance>1</relicChance>
+    <equippedAngleOffset>-55</equippedAngleOffset>
+    <costList>
+      <Bioferrite>400</Bioferrite>
+      <Obsidian>200</Obsidian>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.4</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
+        <extraMeleeDamages>
+          <li>
+            <def>TrueFlame</def>
+            <amount>10</amount>
+            <chance>1.0</chance>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>1.8</cooldownTime>
+        <armorPenetration>1.3</armorPenetration>
+        <extraMeleeDamages>
+          <li>
+            <def>TrueFlame</def>
+            <amount>10</amount>
+            <chance>1.0</chance>
+          </li>
+        </extraMeleeDamages>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>1.5</armorPenetration>
+        <extraMeleeDamages>
+          <li>
+            <def>TrueFlame</def>
+            <amount>10</amount>
+            <chance>1.0</chance>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+
+    <comps Inherit="False">
+
+      <li Class="CompProperties_LegendaryWeaponsReloadable">
+        <abilityDef>Zhurong</abilityDef>
+        <maxCharges>10</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>burner charge</chargeNoun>
+        <ammoDef>Bioferrite</ammoDef>
+        <ammoCountPerCharge>20</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+      </li>
+
+      <li Class="Artifact_Weapon_Arsenal.CompProperties_LegendaryWeapons">
+        <biocodeOnEquip>true</biocodeOnEquip>
+        <AbilitieDefs>
+          <li>Purgatory</li>
+        </AbilitieDefs>
+      </li>
+
+
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Biocodable" />
+    </comps>
+
+    <!--<comps Inherit="False">
+      <li Class="CompProperties_MeleeWeaponFearAura">
+        <radius>4</radius>
+        <fearFactor>0.35</fearFactor>
+        <affectedPawnsTags>
+          <li>Humanlike</li>
+        </affectedPawnsTags>
+      </li>
+    </comps>-->
+
+    <recipeMaker>
+      <researchPrerequisite>MythicSword</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

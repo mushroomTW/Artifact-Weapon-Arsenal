@@ -3,12 +3,12 @@
   "ItemDefName": "Entei",
   "ItemType": "ThingDef",
   "ItemTypeNamespace": "Verse",
-  "OffX": 0.579310954,
-  "OffY": 0.1724138,
-  "Rotation": -55.0,
+  "OffX": 0.4965515,
+  "OffY": 0.03448276,
+  "Rotation": -47.0,
   "ScaleX": 1.3,
   "ScaleY": 1.3,
-  "BladeStart": 0.137931034,
-  "BladeEnd": 1.39310324,
+  "BladeStart": 0.144828,
+  "BladeEnd": 1.24137926,
   "MeleeWeaponType": 2
 }

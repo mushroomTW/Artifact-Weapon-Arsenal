@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+    
     <DamageDef Name="TrueFlame">
         <defName>TrueFlame</defName>
         <workerClass>Artifact_Weapon_Arsenal.Ture_Flame</workerClass>
@@ -23,4 +24,5 @@
         <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
         <scaleDamageToBuildingsBasedOnFlammability>true</scaleDamageToBuildingsBasedOnFlammability>
     </DamageDef>
+
 </Defs>

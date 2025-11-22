@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+
     <AbilityDef>
         <defName>Zhurong</defName>
         <label>Zhurong</label>
         <description>Expend a pressurized bioferrite charge to create a massive cone of flame.</description>
-        <iconPath>UI/Abilities/Burner</iconPath>
+        <iconPath>UI/UI_Zhurong_icon</iconPath>
         <aiCanUse>true</aiCanUse>
         <ai_IsIncendiary>true</ai_IsIncendiary>
         <!--<warmupStartSound>FireSpew_Warmup</warmupStartSound>-->
@@ -14,7 +15,6 @@
             <range>19</range>
             <warmupTime>0.5</warmupTime>
             <!--<soundCast>FireSpew_Resolve</soundCast>-->
-            <!--<soundCast>AWA_Sound_boom_swoosh</soundCast>-->
             <targetParams>
                 <canTargetLocations>true</canTargetLocations>
             </targetParams>
@@ -29,7 +29,7 @@
             <li Class="CompProperties_AbilityFireSpew">
                 <range>20</range>
                 <lineWidthEnd>11</lineWidthEnd>
-                <filthDef>Filth_Ash</filthDef>
+                <!--<filthDef>Filth_Ash</filthDef>-->
                 <damAmount>16</damAmount>
                 <canHitFilledCells>true</canHitFilledCells>
             </li>
@@ -46,4 +46,35 @@
             </li>
         </comps>
     </AbilityDef>
+
+    <AbilityDef ParentName="RoleAuraBuffBase">
+        <defName>Purgatory</defName>
+        <label>Purgatory</label>
+        <description>Add buff for self.</description>
+        <iconPath>UI/Abilities/BerserkTrance</iconPath>
+        <warmupMoteSocialSymbol>UI/Abilities/BerserkTrance</warmupMoteSocialSymbol>
+        <statBases>
+            <Ability_Duration>126</Ability_Duration>
+            <Ability_EffectRadius>0</Ability_EffectRadius>
+        </statBases>
+        <verbProperties>
+            <range>0</range>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>Purgatory_hediff</hediffDef>
+                <onlyApplyToSelf>True</onlyApplyToSelf>
+                <replaceExisting>true</replaceExisting>
+            </li>
+            <!--<li Class="CompProperties_AbilityGiveMentalState">
+                <compClass>CompAbilityEffect_GiveMentalState</compClass>
+                <stateDef>BerserkTrance</stateDef>
+                <soundMale>BerserkTrance_Resolve_Male</soundMale>
+                <soundFemale>BerserkTrance_Resolve_Female</soundFemale>
+            </li>-->
+        </comps>
+    </AbilityDef>
+
+
 </Defs>

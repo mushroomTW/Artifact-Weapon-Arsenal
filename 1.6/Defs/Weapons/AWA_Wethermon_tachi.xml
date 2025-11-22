@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>Wethermon_tachi</defName>
+    <label>Wethermon's tachi</label>
+    <possessionCount>1</possessionCount>
+    <description>Wethermon's tachi.</description>
+    <graphicData>
+      <texPath>Weapons/Wethermon_tachi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.6</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Flammability>0</Flammability>
+      <WorkToMake>16200</WorkToMake>
+      <Mass>5</Mass>
+    </statBases>
+    <costList>
+      <Steel>1000</Steel>
+    </costList>
+    <relicChance>0</relicChance>
+    <equippedStatOffsets>
+      <MeleeHitChance>100</MeleeHitChance>
+      <MeleeDodgeChance>-100</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tools>
+      <!--<li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>100</power>
+        <cooldownTime>0.2</cooldownTime>
+      </li>-->
+      <!--<li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>150</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>-->
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>150</power>
+        <cooldownTime>5</cooldownTime>
+        <armorPenetration>5</armorPenetration>
+      </li>
+    </tools>
+    <!--<recipeMaker>
+      <researchPrerequisite>BasicWeaponForging</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>16</Crafting>
+      </skillRequirements>
+      <displayPriority>1000</displayPriority>
+    </recipeMaker> -->
+  </ThingDef>
+</Defs>

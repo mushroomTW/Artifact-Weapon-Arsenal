@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\awadefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:awadefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\meleeeffect\\ture_flame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:meleeeffect\\ture_flame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\moreability\\moreability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:moreability\\moreability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AWADefof.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\AWADefof.cs",
-              "RelativeDocumentMoniker": "AWADefof.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\AWADefof.cs",
-              "RelativeToolTip": "AWADefof.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Title": "MoreAbility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\MoreAbility\\MoreAbility.cs",
+              "RelativeDocumentMoniker": "MoreAbility\\MoreAbility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\MoreAbility\\MoreAbility.cs",
+              "RelativeToolTip": "MoreAbility\\MoreAbility.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwGsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T06:07:06.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ture_Flame.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\MeleeEffect\\Ture_Flame.cs",
-              "RelativeDocumentMoniker": "MeleeEffect\\Ture_Flame.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\MeleeEffect\\Ture_Flame.cs",
-              "RelativeToolTip": "MeleeEffect\\Ture_Flame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T10:28:55.167Z",
+              "WhenOpened": "2025-11-20T11:02:22.375Z",
               "EditorCaption": ""
             }
           ]
