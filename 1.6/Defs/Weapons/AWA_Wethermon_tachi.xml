@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <ThingDef ParentName="BaseWeapon">
     <defName>Wethermon_tachi</defName>
     <label>Wethermon's tachi</label>
     <possessionCount>1</possessionCount>
@@ -18,10 +18,7 @@
       <WorkToMake>16200</WorkToMake>
       <Mass>5</Mass>
     </statBases>
-    <costList>
-      <Steel>1000</Steel>
-    </costList>
-    <relicChance>0</relicChance>
+    <relicChance>3</relicChance>
     <equippedStatOffsets>
       <MeleeHitChance>100</MeleeHitChance>
       <MeleeDodgeChance>-100</MeleeDodgeChance>
@@ -54,12 +51,5 @@
         <armorPenetration>5</armorPenetration>
       </li>
     </tools>
-    <!--<recipeMaker>
-      <researchPrerequisite>BasicWeaponForging</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>16</Crafting>
-      </skillRequirements>
-      <displayPriority>1000</displayPriority>
-    </recipeMaker> -->
   </ThingDef>
 </Defs>

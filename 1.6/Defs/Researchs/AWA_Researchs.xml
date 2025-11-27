@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchTabDef>
+    <defName>GM_Research</defName>
+    <label>Artifact Weapon Arsenal</label>
+  </ResearchTabDef>
+
+  <ResearchProjectDef Name="GM_ResearchProjectBase" Abstract="true">
+    <techLevel>Medieval</techLevel>
+    <tab>GM_Research</tab>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="GM_ResearchProjectBase">
+    <defName>BasicWeaponForging</defName>
+    <label>Basic Weapon Forging</label>
+    <description>Craft basic weapons.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>LongBlades</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="GM_ResearchProjectBase">
+    <defName>MythicSword</defName>
+    <label>mythic sword</label>
+    <description>Craft mythicswords.</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>BasicWeaponForging</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--<RulePackDef>
+        <defName>Damage_InstantDead</defName>
+        <include>
+            <li>Combat_Melee_Extra</li>
+        </include>
+        <rulesStrings>
+            <li>
+                <key>PolluxHit</key>
+                <rules>
+                    <li>logentry->[ATTACKER_nameDef] invoked the kill command with [TOOL_label]!</li>
+                </rules>
+            </li>
+            <li>
+                <key>logentry</key>
+                <rules>
+                    <li>logentry->[ATTACKER_nameDef] unleashes the hidden power of [TOOL_label], instantly ending [RECEIVER_nameDef]'s life.</li>
+                </rules>
+            </li>
+        </rulesStrings>
+    </RulePackDef>-->
+
+</Defs>

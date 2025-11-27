@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="MoteBase">
+        <thingClass>MoteAttached</thingClass>
+        <defName>Mote_ChipBoosted</defName>
+        <altitudeLayer>Item</altitudeLayer>
+        <mote>
+            <fadeInTime>1</fadeInTime>
+            <fadeOutTime>130</fadeOutTime>
+            <solidTime>999999</solidTime>
+            <needsMaintenance>True</needsMaintenance>
+            <fadeOutUnmaintained>True</fadeOutUnmaintained>
+            <attachedToHead>True</attachedToHead>
+        </mote>
+        <graphicData>
+            <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+            <drawSize>1.3</drawSize>
+            <texPath>Others/fire</texPath>
+            <!--R,G,B,透明度-->
+            <color>(1, 0.4, 0, 1)</color>
+            <shaderType>MoteGlow</shaderType>
+        </graphicData>
+    </ThingDef>
+
+    
+</Defs>

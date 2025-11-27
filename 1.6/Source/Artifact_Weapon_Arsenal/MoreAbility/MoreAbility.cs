@@ -10,7 +10,7 @@ using Verse;
 namespace Artifact_Weapon_Arsenal
 {
 
-    public class CompLegendaryWeapons : CompEquippable
+    public class CompMoreAbility : CompEquippable
     {
         public int Killcount = 0;
         public int TickToCheck;
@@ -18,7 +18,7 @@ namespace Artifact_Weapon_Arsenal
         protected Pawn codedPawn;
         protected string codedPawnLabel;
 
-        public CompProperties_LegendaryWeapons Props => this.props as CompProperties_LegendaryWeapons;
+        public CompProperties_MoreAbility Props => this.props as CompProperties_MoreAbility;
 
         public override void Initialize(CompProperties props)
         {
@@ -101,13 +101,13 @@ namespace Artifact_Weapon_Arsenal
         }
     }
 
-    public class CompProperties_LegendaryWeapons : CompProperties
+    public class CompProperties_MoreAbility : CompProperties
     {
         public bool biocodeOnEquip = true;
         public List<AbilityDef> AbilitieDefs;
         public bool GivePE = true;
 
-        public CompProperties_LegendaryWeapons() => this.compClass = typeof(CompLegendaryWeapons);
+        public CompProperties_MoreAbility() => this.compClass = typeof(CompMoreAbility);
     }
 
 

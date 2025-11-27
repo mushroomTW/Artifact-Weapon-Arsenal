@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <DamageDef>
+        <defName>TrueFlame</defName>
+        <workerClass>Artifact_Weapon_Arsenal.Ture_Flame</workerClass>
+        <label>true flame</label>
+        <hasForcefulImpact>false</hasForcefulImpact>
+        <makesBlood>false</makesBlood>
+        <canInterruptJobs>false</canInterruptJobs>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has burned to death.</deathMessage>
+        <hediff>Burn</hediff>
+        <armorCategory>Heat</armorCategory>
+        <minDamageToFragment>15</minDamageToFragment>
+        <defaultDamage>10</defaultDamage>
+        <defaultArmorPenetration>2.0</defaultArmorPenetration>
+        <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
+        <explosionCellFleck>BlastFlame</explosionCellFleck>
+        <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
+        <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
+        <soundExplosion>Explosion_Flame</soundExplosion>
+        <combatLogRules>Damage_Flame</combatLogRules>
+        <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+        <scaleDamageToBuildingsBasedOnFlammability>true</scaleDamageToBuildingsBasedOnFlammability>
+    </DamageDef>
+
+    <DamageDef>
+        <defName>InstantDeath</defName>
+        <workerClass>Artifact_Weapon_Arsenal.InstantDead</workerClass>
+        <label>instant death</label>
+        <hasForcefulImpact>false</hasForcefulImpact>
+        <canInterruptJobs>false</canInterruptJobs>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} fallen into eternal sleep.</deathMessage>
+        <makesBlood>false</makesBlood>
+        <!--<combatLogRules>Damage_InstantDead</combatLogRules>-->
+        <combatLogRules>Damage_Flame</combatLogRules>
+    </DamageDef>
+
+</Defs>

@@ -3,12 +3,12 @@
   "ItemDefName": "Dianqing",
   "ItemType": "ThingDef",
   "ItemTypeNamespace": "Verse",
-  "OffX": 0.5844832,
+  "OffX": 0.455172837,
   "OffY": 0.053448908,
   "Rotation": -50.0,
   "ScaleX": 1.1,
   "ScaleY": 1.1,
   "BladeStart": 0.115517452,
-  "BladeEnd": 1.33620691,
+  "BladeEnd": 1.158621,
   "MeleeWeaponType": 38
 }

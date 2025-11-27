@@ -1,0 +1,15 @@
+{
+  "TextureModID": "greenmushroom.artifact.weapon.arsenal",
+  "ItemDefName": "Pollux",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.117241167,
+  "OffY": -0.02068934,
+  "Rotation": 125.0,
+  "ScaleX": 1.5,
+  "ScaleY": 1.5,
+  "FlipY": true,
+  "BladeStart": -0.7310344,
+  "BladeEnd": 0.827586234,
+  "MeleeWeaponType": 7
+}

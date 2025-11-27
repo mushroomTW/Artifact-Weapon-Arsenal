@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+  <ThingDef ParentName="BaseWeapon_Bladelink">
     <defName>Entei</defName>
     <label>Entei</label>
     <description>Entei's attacks can set enemies on fire, and his huge blade makes enemies afraid.</description>
@@ -11,10 +11,10 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
     <techLevel>Medieval</techLevel>
-    <weaponTags>
-
-    </weaponTags>
     <statBases>
       <DeteriorationRate>0</DeteriorationRate>
       <Flammability>0</Flammability>
@@ -22,11 +22,17 @@
       <WorkToMake>45000</WorkToMake>
       <Mass>6</Mass>
     </statBases>
+    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <equippedStatOffsets>
+      <Flammability>-1.0</Flammability>
+    </equippedStatOffsets>
     <relicChance>1</relicChance>
-    <equippedAngleOffset>-55</equippedAngleOffset>
+    <equippedAngleOffset>-50</equippedAngleOffset>
     <costList>
-      <Bioferrite>400</Bioferrite>
-      <Obsidian>200</Obsidian>
+      
+      <Bioferrite>600</Bioferrite>
+      
+      <Obsidian>400</Obsidian>
     </costList>
     <tools>
       <li>
@@ -79,9 +85,9 @@
       </li>
     </tools>
 
-    <comps Inherit="False">
+    <comps>
 
-      <li Class="CompProperties_LegendaryWeaponsReloadable">
+      <li Class="CompProperties_EquippableAbilityReloadable">
         <abilityDef>Zhurong</abilityDef>
         <maxCharges>10</maxCharges>
         <soundReload>Standard_Reload</soundReload>
@@ -91,29 +97,13 @@
         <baseReloadTicks>60</baseReloadTicks>
       </li>
 
-      <li Class="Artifact_Weapon_Arsenal.CompProperties_LegendaryWeapons">
+      <li Class="Artifact_Weapon_Arsenal.CompProperties_MoreAbility">
         <biocodeOnEquip>true</biocodeOnEquip>
         <AbilitieDefs>
           <li>Purgatory</li>
         </AbilitieDefs>
       </li>
-
-
-      <li Class="CompProperties_Forbiddable" />
-      <li Class="CompProperties_Styleable" />
-      <li Class="CompProperties_Biocodable" />
     </comps>
-
-    <!--<comps Inherit="False">
-      <li Class="CompProperties_MeleeWeaponFearAura">
-        <radius>4</radius>
-        <fearFactor>0.35</fearFactor>
-        <affectedPawnsTags>
-          <li>Humanlike</li>
-        </affectedPawnsTags>
-      </li>
-    </comps>-->
-
     <recipeMaker>
       <researchPrerequisite>MythicSword</researchPrerequisite>
       <skillRequirements>

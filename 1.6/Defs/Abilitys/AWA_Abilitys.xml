@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <AbilityDef>
+        <defName>Zhurong</defName>
+        <label>Zhurong</label>
+        <description>Expend a pressurized bioferrite charge to create a massive cone of flame.</description>
+        <iconPath>UI/UI_Zhurong_icon</iconPath>
+        <aiCanUse>true</aiCanUse>
+        <ai_IsIncendiary>true</ai_IsIncendiary>
+        <!--<warmupStartSound>FireSpew_Warmup</warmupStartSound>-->
+        <warmupStartSound>AWA_Sound_boom_swoosh</warmupStartSound>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>19</range>
+            <warmupTime>0.3</warmupTime>
+            <!--<soundCast>FireSpew_Resolve</soundCast>-->
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <flammabilityAttachFireChanceCurve>
+                <points>
+                    <li>(0.0, 0.9)</li>
+                    <li>(1, 1)</li>
+                </points>
+            </flammabilityAttachFireChanceCurve>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityFireSpew">
+                <range>20</range>
+                <lineWidthEnd>13</lineWidthEnd>
+                <!--<filthDef>Filth_Ash</filthDef>-->
+                <damAmount>16</damAmount>
+                <canHitFilledCells>true</canHitFilledCells>
+            </li>
+            <li Class="CompProperties_AbilityBurner">
+                <numStreams>40</numStreams>
+                <range>24</range>
+                <coneSizeDegrees>12</coneSizeDegrees>
+                <moteDef>Mote_IncineratorBurst</moteDef>
+                <barrelOffsetDistance>6</barrelOffsetDistance>
+                <sizeReductionDistanceThreshold>16</sizeReductionDistanceThreshold>
+                <lifespanNoise>40</lifespanNoise>
+                <rangeNoise>.4</rangeNoise>
+                <effecterDef>BurnerUsed_1</effecterDef>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef ParentName="RoleAuraBuffBase">
+        <defName>Purgatory</defName>
+        <label>Purgatory</label>
+        <description>Add buff for self.</description>
+        <iconPath>UI/UI_Purgatory_icon</iconPath>
+        <warmupMoteSocialSymbol>UI/UI_Purgatory_icon</warmupMoteSocialSymbol>
+        <!--<warmupStartSound>AWA_Sound_fire_out</warmupStartSound>-->
+        <statBases>
+            <Ability_Duration>126</Ability_Duration>
+            <Ability_EffectRadius>0</Ability_EffectRadius>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>5</range>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>Purgatory_hediff</hediffDef>
+                <onlyApplyToSelf>true</onlyApplyToSelf>
+                <replaceExisting>true</replaceExisting>
+            </li>
+
+            <li Class="CompProperties_AbilityGiveMentalState">
+                <compClass>CompAbilityEffect_GiveMentalState</compClass>
+                <soundMale>BerserkTrance_Resolve_Male</soundMale>
+                <soundFemale>BerserkTrance_Resolve_Female</soundFemale>
+            </li>
+
+            <li Class="CompProperties_AbilityExplosion">
+                <damageDef>Flame</damageDef>
+                <soundExplode>AWA_Sound_fire_out</soundExplode>
+                <damageAmount>0</damageAmount>
+                <explosionRadius>5</explosionRadius>
+            </li>
+        </comps>
+    </AbilityDef>
+
+
+
+</Defs>

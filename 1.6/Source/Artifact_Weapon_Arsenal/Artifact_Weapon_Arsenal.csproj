@@ -53,13 +53,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AWADefof.cs" />
+    <Compile Include="AWADef.cs" />
     <Compile Include="DamageSetting\DamageChage.cs" />
     <Compile Include="DamageSetting\WeaponDamagePostProcessor.cs" />
+    <Compile Include="MeleeEffect\InstantDead.cs" />
     <Compile Include="MeleeEffect\Ture_Flame.cs" />
     <Compile Include="ModSetting\ModSetting.cs" />
     <Compile Include="ModSetting\ModSettingUI.cs" />
     <Compile Include="MoreAbility\MoreAbility.cs" />
+    <Compile Include="MoreDisplay\HediffDisplay.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
