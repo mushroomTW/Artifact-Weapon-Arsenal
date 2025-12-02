@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
-  <ThingDef ParentName="BaseWeapon_Bladelink">
-    <defName>Entei</defName>
-    <label>Entei</label>
-    <description>Entei's attacks can set enemies on fire, and his huge blade makes enemies afraid.</description>
+    
+    <ThingDef ParentName="BaseWeapon_Bladelink">
+    <defName>King_Zhou_of_Shang</defName>
+    <label>King Zhou of Shang</label>
+    <description>King Zhou of Shang's description.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Weapons/Entei</texPath>
+      <texPath>Weapons/King_Zhou_of_Shang</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
@@ -22,15 +22,15 @@
       <WorkToMake>45000</WorkToMake>
       <Mass>6</Mass>
     </statBases>
-    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <meleeHitSound>MeleeHit_BladelinkPlasmaSword</meleeHitSound>
     <equippedStatOffsets>
-      <Flammability>-1.0</Flammability>
+      <MoveSpeed>0.35</MoveSpeed>
     </equippedStatOffsets>
     <relicChance>1</relicChance>
     <equippedAngleOffset>-50</equippedAngleOffset>
     <costList>
-      <Bioferrite MayRequireAnyOf="Ludeon.RimWorld.Anomaly">600</Bioferrite>
-      <Obsidian>400</Obsidian>
+      <Plasteel>200</Plasteel>
+      <Obsidian>800</Obsidian>
     </costList>
     <tools>
       <li>
@@ -38,12 +38,12 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>20</power>
-        <cooldownTime>1.4</cooldownTime>
+        <power>16</power>
+        <cooldownTime>1.3</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
         <extraMeleeDamages>
           <li>
-            <def>TrueFlame</def>
+            <def>EMP</def>
             <amount>10</amount>
             <chance>1.0</chance>
           </li>
@@ -54,12 +54,12 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>30</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>27</power>
+        <cooldownTime>1.6</cooldownTime>
         <armorPenetration>1.3</armorPenetration>
         <extraMeleeDamages>
           <li>
-            <def>TrueFlame</def>
+            <def>EMP</def>
             <amount>10</amount>
             <chance>1.0</chance>
           </li>
@@ -70,37 +70,20 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>30</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>27</power>
+        <cooldownTime>1.4</cooldownTime>
         <armorPenetration>1.5</armorPenetration>
         <extraMeleeDamages>
           <li>
-            <def>TrueFlame</def>
+            <def>EMP</def>
             <amount>10</amount>
             <chance>1.0</chance>
           </li>
         </extraMeleeDamages>
       </li>
     </tools>
-
     <comps>
 
-      <li Class="CompProperties_EquippableAbilityReloadable">
-        <abilityDef>Zhurong</abilityDef>
-        <maxCharges>10</maxCharges>
-        <soundReload>Standard_Reload</soundReload>
-        <chargeNoun>burner charge</chargeNoun>
-        <ammoDef>Bioferrite</ammoDef>
-        <ammoCountPerCharge>20</ammoCountPerCharge>
-        <baseReloadTicks>60</baseReloadTicks>
-      </li>
-
-      <li Class="Artifact_Weapon_Arsenal.CompProperties_MoreAbility">
-        <biocodeOnEquip>true</biocodeOnEquip>
-        <AbilitieDefs>
-          <li>Purgatory</li>
-        </AbilitieDefs>
-      </li>
     </comps>
     <recipeMaker>
       <researchPrerequisite>MythicSword</researchPrerequisite>

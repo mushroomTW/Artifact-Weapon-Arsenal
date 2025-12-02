@@ -22,6 +22,9 @@
       <MaxHitPoints>99999999</MaxHitPoints>
       <Mass>1</Mass>
     </statBases>
+    <equippedStatOffsets>
+      <IncomingDamageFactor>-1</IncomingDamageFactor>
+    </equippedStatOffsets>
     <relicChance>3</relicChance>
     <equippedAngleOffset>-50</equippedAngleOffset>
     <tools>

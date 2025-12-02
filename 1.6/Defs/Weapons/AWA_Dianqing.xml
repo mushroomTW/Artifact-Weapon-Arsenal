@@ -33,7 +33,7 @@
       <Obsidian>800</Obsidian>
     </costList>
     <tools>
-      <li>
+      <!--<li>
         <label>handle</label>
         <capacities>
           <li>Blunt</li>
@@ -64,7 +64,7 @@
             <chance>1.0</chance>
           </li>
         </extraMeleeDamages>
-      </li>
+      </li>-->
       <li>
         <label>edge</label>
         <capacities>
@@ -82,6 +82,9 @@
         </extraMeleeDamages>
       </li>
     </tools>
+    <comps>
+
+    </comps>
     <recipeMaker>
       <researchPrerequisite>MythicSword</researchPrerequisite>
       <skillRequirements>

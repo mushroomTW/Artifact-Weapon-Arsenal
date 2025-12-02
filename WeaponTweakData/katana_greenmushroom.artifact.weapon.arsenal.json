@@ -1,6 +1,6 @@
 {
   "TextureModID": "greenmushroom.artifact.weapon.arsenal",
-  "ItemDefName": "Initial_katana",
+  "ItemDefName": "katana",
   "ItemType": "ThingDef",
   "ItemTypeNamespace": "Verse",
   "OffX": 0.3310558,

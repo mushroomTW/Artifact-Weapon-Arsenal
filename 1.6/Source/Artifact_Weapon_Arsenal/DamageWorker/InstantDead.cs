@@ -13,7 +13,7 @@ namespace Artifact_Weapon_Arsenal
         // 當這個傷害類型被應用時，這個函式會被呼叫
         public override DamageResult Apply(DamageInfo dinfo, Thing thing)
         {
-            DamageResult result = new DamageResult();
+            DamageResult damageResult = new DamageResult();
 
             // 檢查目標是否為 Pawn (角色)
             if (thing is Pawn pawn)
@@ -27,7 +27,7 @@ namespace Artifact_Weapon_Arsenal
                 thing.Destroy(DestroyMode.KillFinalize);
             }
 
-            return result;
+            return damageResult;
         }
     }
 }

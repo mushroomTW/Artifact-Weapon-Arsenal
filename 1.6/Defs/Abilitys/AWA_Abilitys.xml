@@ -12,7 +12,7 @@
         <warmupStartSound>AWA_Sound_boom_swoosh</warmupStartSound>
         <verbProperties>
             <verbClass>Verb_CastAbility</verbClass>
-            <range>19</range>
+            <range>18.9</range>
             <warmupTime>0.3</warmupTime>
             <!--<soundCast>FireSpew_Resolve</soundCast>-->
             <targetParams>
@@ -27,7 +27,7 @@
         </verbProperties>
         <comps>
             <li Class="CompProperties_AbilityFireSpew">
-                <range>20</range>
+                <range>19.9</range>
                 <lineWidthEnd>13</lineWidthEnd>
                 <!--<filthDef>Filth_Ash</filthDef>-->
                 <damAmount>16</damAmount>
@@ -52,12 +52,15 @@
         <label>Purgatory</label>
         <description>Add buff for self.</description>
         <iconPath>UI/UI_Purgatory_icon</iconPath>
+        <aiCanUse>true</aiCanUse>
+        <ai_IsIncendiary>true</ai_IsIncendiary>
         <warmupMoteSocialSymbol>UI/UI_Purgatory_icon</warmupMoteSocialSymbol>
         <!--<warmupStartSound>AWA_Sound_fire_out</warmupStartSound>-->
         <statBases>
             <Ability_Duration>126</Ability_Duration>
             <Ability_EffectRadius>0</Ability_EffectRadius>
         </statBases>
+        <cooldownTicksRange>120000</cooldownTicksRange>
         <verbProperties>
             <verbClass>Verb_CastAbility</verbClass>
             <range>5</range>
@@ -85,6 +88,67 @@
         </comps>
     </AbilityDef>
 
+    <AbilityDef>
+        <defName>Bilskirnir</defName>
+        <label>bilskirnir</label>
+        <description>Use differential-pressure skipgates in the atmosphere to generate a localized flashstorm. The storm will strike the area with lightning for some time before dissipating.</description>
+        <iconPath>UI/UI_Bilskirnir_icon</iconPath>
+        <aiCanUse>true</aiCanUse>
+        <ai_IsIncendiary>true</ai_IsIncendiary>
+        <!--<writeCombatLog>True</writeCombatLog>-->
+        <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+        <statBases>
+            <Ability_EffectRadius>13.9</Ability_EffectRadius>
+            <Ability_Duration>164</Ability_Duration>
+        </statBases>
+        <cooldownTicksRange>10000</cooldownTicksRange>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <range>19.9</range>
+            <!--<useableInVacuum>false</useableInVacuum>-->
+            <targetParams>
+                <canTargetPawns>False</canTargetPawns>
+                <canTargetLocations>True</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="Artifact_Weapon_Arsenal.CompProperties_AbilityBilskirnir">
+                <goodwillImpact>-35</goodwillImpact>
+            </li>
+            <li Class="CompProperties_AbilityFleckOnTarget">
+                <fleckDef>FlashstormAreaEffect</fleckDef>
+                <sound>Psycast_Skip_Exit</sound>
+            </li>
+        </comps>
+    </AbilityDef>
 
-
+    <AbilityDef>
+        <defName>Thunderbolt</defName>
+        <label>thunderbolt</label>
+        <description>thunderbolt's description.</description>
+        <iconPath>UI/UI_Bilskirnir_icon</iconPath>
+        <aiCanUse>true</aiCanUse>
+        <ai_IsIncendiary>true</ai_IsIncendiary>
+        <statBases>
+            <Ability_EffectRadius>1</Ability_EffectRadius>
+        </statBases>
+        <cooldownTicksRange>720</cooldownTicksRange>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <range>29.9</range>
+            <targetParams>
+                <canTargetPawns>True</canTargetPawns>
+                <canTargetLocations>True</canTargetLocations>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="Artifact_Weapon_Arsenal.CompProperties_AbilityThunderbolt">
+                <strikeCount>12</strikeCount>
+                <ticksBetweenStrikes>80</ticksBetweenStrikes>
+            </li>
+        </comps>
+    </AbilityDef>
+    
 </Defs>

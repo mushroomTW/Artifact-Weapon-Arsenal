@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\",
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\\u795E\u5175\u9444\u9020\\1.6\\Source\\Artifact_Weapon_Arsenal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\meleeeffect\\instantdead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:meleeeffect\\instantdead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\\u795E\u5175\u9444\u9020\\1.6\\source\\artifact_weapon_arsenal\\moreability\\abilitythunderbolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:moreability\\abilitythunderbolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\artifact weapon arsenal\\1.6\\source\\artifact_weapon_arsenal\\meleeeffect\\ture_flame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:meleeeffect\\ture_flame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\\u795E\u5175\u9444\u9020\\1.6\\source\\artifact_weapon_arsenal\\moreability\\moreability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:moreability\\moreability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\\u795E\u5175\u9444\u9020\\1.6\\source\\artifact_weapon_arsenal\\moreability\\abilitybilskirnir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FBBC57-6E10-4448-B78F-C4BAACD4FAE6}|Artifact_Weapon_Arsenal.csproj|solutionrelative:moreability\\abilitybilskirnir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ture_Flame.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\MeleeEffect\\Ture_Flame.cs",
-              "RelativeDocumentMoniker": "MeleeEffect\\Ture_Flame.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\MeleeEffect\\Ture_Flame.cs",
-              "RelativeToolTip": "MeleeEffect\\Ture_Flame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Title": "MoreAbility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\\u795E\u5175\u9444\u9020\\1.6\\Source\\Artifact_Weapon_Arsenal\\MoreAbility\\MoreAbility.cs",
+              "RelativeDocumentMoniker": "MoreAbility\\MoreAbility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\\u795E\u5175\u9444\u9020\\1.6\\Source\\Artifact_Weapon_Arsenal\\MoreAbility\\MoreAbility.cs",
+              "RelativeToolTip": "MoreAbility\\MoreAbility.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T12:05:34.968Z",
+              "WhenOpened": "2025-12-02T16:16:50.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InstantDead.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\MeleeEffect\\InstantDead.cs",
-              "RelativeDocumentMoniker": "MeleeEffect\\InstantDead.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Artifact Weapon Arsenal\\1.6\\Source\\Artifact_Weapon_Arsenal\\MeleeEffect\\InstantDead.cs",
-              "RelativeToolTip": "MeleeEffect\\InstantDead.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Title": "AbilityThunderbolt.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\\u795E\u5175\u9444\u9020\\1.6\\Source\\Artifact_Weapon_Arsenal\\MoreAbility\\AbilityThunderbolt.cs",
+              "RelativeDocumentMoniker": "MoreAbility\\AbilityThunderbolt.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\\u795E\u5175\u9444\u9020\\1.6\\Source\\Artifact_Weapon_Arsenal\\MoreAbility\\AbilityThunderbolt.cs",
+              "RelativeToolTip": "MoreAbility\\AbilityThunderbolt.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwEwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T12:05:22.283Z",
+              "WhenOpened": "2025-12-02T15:35:22.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbilityBilskirnir.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\\u795E\u5175\u9444\u9020\\1.6\\Source\\Artifact_Weapon_Arsenal\\MoreAbility\\AbilityBilskirnir.cs",
+              "RelativeDocumentMoniker": "MoreAbility\\AbilityBilskirnir.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\\u795E\u5175\u9444\u9020\\1.6\\Source\\Artifact_Weapon_Arsenal\\MoreAbility\\AbilityBilskirnir.cs",
+              "RelativeToolTip": "MoreAbility\\AbilityBilskirnir.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwEwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T14:18:52.098Z",
               "EditorCaption": ""
             }
           ]

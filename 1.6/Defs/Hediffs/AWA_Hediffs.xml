@@ -6,6 +6,7 @@
         <label>Purgatory</label>
         <description>Driven by fierce moral certainty and stories of ideoligious grievance, this person has driven him or herself into a rage. Every muscle is at peak performance, but it's hard to shut down the anger.</description>
         <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(1, 0.4, 0)</defaultLabelColor>
         <stages>
             <li>
                 <statOffsets>
@@ -25,6 +26,32 @@
             <li Class="Artifact_Weapon_Arsenal.HediffCompProperties_HediffDisplay"/>
         </comps>
         <isBad>false</isBad>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>AWA_LightningProtection</defName>
+        <label>雷神護體</label>
+        <description>暫時獲得對所有傷害的免疫力，以抵禦召喚雷擊時產生的衝擊。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <defaultLabelColor>(0.6, 0.8, 1.0)</defaultLabelColor>
+        <stages>
+            <li>
+                <statFactors>
+                    <IncomingDamageFactor>0</IncomingDamageFactor>
+                </statFactors>
+                <statOffsets>
+                    <Flammability>-2.0</Flammability>
+                </statOffsets>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>120~120</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
     </HediffDef>
 
 </Defs>

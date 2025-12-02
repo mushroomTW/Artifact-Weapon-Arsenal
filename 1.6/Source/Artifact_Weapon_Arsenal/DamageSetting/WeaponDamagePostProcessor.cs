@@ -17,7 +17,7 @@ namespace Artifact_Weapon_Arsenal
         // 2. 定義您模組所有武器的 DefName 列表，用於精確篩選
         private static readonly string[] AWA_WeaponDefNames = new string[]
         {
-            "Initial_katana",
+            "katana",
             "Entei",
             "Dianqing"
             // 請確保這裡包含您所有要調整的近戰武器 DefName
@@ -38,8 +38,8 @@ namespace Artifact_Weapon_Arsenal
             foreach (ThingDef thingDef in DefDatabase<ThingDef>.AllDefs)
             {
                 // 精確篩選：判斷 DefName 是否在我們定義的列表內
-                if (AWA_WeaponDefNames.Contains(thingDef.defName))
-                {
+                //if (AWA_WeaponDefNames.Contains(thingDef.defName))
+               // {
                     if (thingDef.tools != null)
                     {
                         foreach (Tool tool in thingDef.tools)
@@ -51,7 +51,7 @@ namespace Artifact_Weapon_Arsenal
                             }
                         }
                     }
-                }
+                //}
             }
         }
 

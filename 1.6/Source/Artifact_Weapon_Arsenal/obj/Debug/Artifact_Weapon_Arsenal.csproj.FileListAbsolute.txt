@@ -4,3 +4,9 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Artifact Weapon Arse
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Artifact Weapon Arsenal\1.6\Source\Artifact_Weapon_Arsenal\obj\Debug\Artifact_Weapon_Arsenal.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Artifact Weapon Arsenal\1.6\Source\Artifact_Weapon_Arsenal\obj\Debug\Artifact_Weapon_Arsenal.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Artifact Weapon Arsenal\1.6\Source\Artifact_Weapon_Arsenal\obj\Debug\Artifact_Weapon_Arsenal.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\神兵鑄造\1.6\Assemblies\Artifact_Weapon_Arsenal.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\神兵鑄造\1.6\Assemblies\Artifact_Weapon_Arsenal.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\神兵鑄造\1.6\Source\Artifact_Weapon_Arsenal\obj\Debug\Artifact_Weapon_Arsenal.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\神兵鑄造\1.6\Source\Artifact_Weapon_Arsenal\obj\Debug\Artifact_Weapon_Arsenal.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\神兵鑄造\1.6\Source\Artifact_Weapon_Arsenal\obj\Debug\Artifact_Weapon_Arsenal.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\神兵鑄造\1.6\Source\Artifact_Weapon_Arsenal\obj\Debug\Artifact_Weapon_Arsenal.pdb

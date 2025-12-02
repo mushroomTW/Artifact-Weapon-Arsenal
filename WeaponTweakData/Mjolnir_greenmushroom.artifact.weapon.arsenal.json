@@ -1,0 +1,12 @@
+{
+  "TextureModID": "greenmushroom.artifact.weapon.arsenal",
+  "ItemDefName": "Mjolnir",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.07586249,
+  "Rotation": 135.0,
+  "HandsMode": 1,
+  "BladeStart": -0.303448379,
+  "BladeEnd": 0.448275864,
+  "MeleeWeaponType": 14
+}

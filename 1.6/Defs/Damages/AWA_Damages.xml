@@ -34,8 +34,23 @@
         <externalViolence>true</externalViolence>
         <deathMessage>{0} fallen into eternal sleep.</deathMessage>
         <makesBlood>false</makesBlood>
-        <!--<combatLogRules>Damage_InstantDead</combatLogRules>-->
-        <combatLogRules>Damage_Flame</combatLogRules>
+        <defaultDamage>10</defaultDamage>
+        <combatLogRules>Damage_InstantDead</combatLogRules>
+    </DamageDef>
+
+    <DamageDef>
+        <defName>LightningStrike</defName>
+        <label>lightning strike</label>
+        <workerClass>Artifact_Weapon_Arsenal.LightningStrike</workerClass>
+        <hasForcefulImpact>false</hasForcefulImpact>
+        <canInterruptJobs>false</canInterruptJobs>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} was struck down by lightning.</deathMessage>
+        <makesBlood>false</makesBlood>
+        <armorCategory>Heat</armorCategory>
+        <defaultDamage>10</defaultDamage>
+        <defaultArmorPenetration>2.0</defaultArmorPenetration>
+        <combatLogRules>Damage_InstantDead</combatLogRules>
     </DamageDef>
 
 </Defs>

@@ -56,11 +56,14 @@
     <Compile Include="AWADef.cs" />
     <Compile Include="DamageSetting\DamageChage.cs" />
     <Compile Include="DamageSetting\WeaponDamagePostProcessor.cs" />
-    <Compile Include="MeleeEffect\InstantDead.cs" />
-    <Compile Include="MeleeEffect\Ture_Flame.cs" />
+    <Compile Include="DamageWorker\InstantDead.cs" />
+    <Compile Include="DamageWorker\LightningStrike.cs" />
+    <Compile Include="DamageWorker\Ture_Flame.cs" />
     <Compile Include="ModSetting\ModSetting.cs" />
     <Compile Include="ModSetting\ModSettingUI.cs" />
+    <Compile Include="MoreAbility\AbilityBilskirnir.cs" />
     <Compile Include="MoreAbility\MoreAbility.cs" />
+    <Compile Include="MoreAbility\AbilityThunderbolt.cs" />
     <Compile Include="MoreDisplay\HediffDisplay.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
