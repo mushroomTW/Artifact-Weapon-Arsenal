@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <Initial_katana.label>初始武士刀</Initial_katana.label>
-    <Initial_katana.description>初始武士刀,比长剑更好,应该很适合训练.</Initial_katana.description>
-    <Initial_katana.tools.point.label>刀尖</Initial_katana.tools.point.label>
-    <Initial_katana.tools.edge.label>刀刃</Initial_katana.tools.edge.label>
-    <Initial_katana.tools.handle.label>刀柄</Initial_katana.tools.handle.label>
+    <katana.label>武士刀</katana.label>
+    <katana.description>比长剑更好,应该很适合训练.</katana.description>
+    <katana.tools.point.label>刀尖</katana.tools.point.label>
+    <katana.tools.edge.label>刀刃</katana.tools.edge.label>
+    <katana.tools.handle.label>刀柄</katana.tools.handle.label>
 
     <Entei.label>炎帝</Entei.label>
     <Entei.description>炎帝,攻击能点燃敌人,其巨大的刀刃让敌人望而生畏.</Entei.description>
@@ -14,15 +14,29 @@
     <Entei.tools.handle.label>刀柄</Entei.tools.handle.label>
 
     <Dianqing.label>靛青</Dianqing.label>
-    <Dianqing.description>靛青,攻击能使敌人陷入电磁状态,其巨大的刀刃让敌人望而生畏.</Dianqing.description>
+    <Dianqing.description>被符文强化过的武器.</Dianqing.description>
     <Dianqing.tools.point.label>刀尖</Dianqing.tools.point.label>
     <Dianqing.tools.edge.label>刀刃</Dianqing.tools.edge.label>
     <Dianqing.tools.handle.label>刀柄</Dianqing.tools.handle.label>
 
-    <Wethermon_tachi.label>衛札衛門的太刀</Wethermon_tachi.label>
-    <Wethermon_tachi.description>衛札衛門的太刀.</Wethermon_tachi.description>
-    <Wethermon_tachi.tools.point.label>刀尖</Wethermon_tachi.tools.point.label>
+    <Wethermon_tachi.label>卫札卫门的太刀</Wethermon_tachi.label>
+    <Wethermon_tachi.description>卫札卫门的太刀.</Wethermon_tachi.description>
     <Wethermon_tachi.tools.edge.label>刀刃</Wethermon_tachi.tools.edge.label>
-    <Wethermon_tachi.tools.handle.label>刀柄</Wethermon_tachi.tools.handle.label>
     
+    <King_Zhou_of_Shang.label>帝辛</King_Zhou_of_Shang.label>
+    <King_Zhou_of_Shang.description>强大,无须多言.</King_Zhou_of_Shang.description>
+    <King_Zhou_of_Shang.tools.edge.label>刀刃</King_Zhou_of_Shang.tools.edge.label>
+    <King_Zhou_of_Shang.tools.handle.label>刀柄</King_Zhou_of_Shang.tools.handle.label>
+
+    <Mjolnir.label>妙尔尼尔</Mjolnir.label>
+    <Mjolnir.description>意译为雷神之锤、雷霆战锤，是雷神索尔的武器。妙尔尼尔是由一对矮人工匠兄弟打造而成。在锻造的过程中，洛基变形成飞虫干扰矮人工匠，
+            因此妙尔尼尔的握柄才会特别短。</Mjolnir.description>
+    <Mjolnir.tools.head.label>槌头</Mjolnir.tools.head.label>
+    <Mjolnir.tools.handle.label>槌柄</Mjolnir.tools.handle.label>
+
+    <Pollux.label>玻呂刻斯</Pollux.label>
+    <Pollux.description>惟願「死亡」...捍衛你我！</Pollux.description>
+    <Pollux.tools.edge.label>刀刃</Pollux.tools.edge.label>
+    
+
 </LanguageData>

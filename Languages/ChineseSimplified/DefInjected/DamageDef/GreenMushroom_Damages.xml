@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <TrueFlame.label>真焰</TrueFlame.label>
+    <TrueFlame.deathMessage>{0} 被烧死了。</TrueFlame.deathMessage>
+
+    <InstantDeath.label>瞬间死亡</InstantDeath.label>
+    <InstantDeath.deathMessage>{0} 陷入了永恒的沉睡。</InstantDeath.deathMessage>
+
+    <LightningStrike.label>闪电打击</LightningStrike.label>
+    <LightningStrike.deathMessage>{0} 被闪电打死了。</LightningStrike.deathMessage>
+
+</LanguageData>

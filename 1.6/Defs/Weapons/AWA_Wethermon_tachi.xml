@@ -25,22 +25,6 @@
     </equippedStatOffsets>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <tools>
-      <!--<li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>100</power>
-        <cooldownTime>0.2</cooldownTime>
-      </li>-->
-      <!--<li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>150</power>
-        <cooldownTime>0.1</cooldownTime>
-      </li>-->
       <li>
         <label>edge</label>
         <capacities>

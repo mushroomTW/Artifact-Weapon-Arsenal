@@ -5,7 +5,7 @@
         <defName>Bilskirnir</defName>
         <conditionClass>Artifact_Weapon_Arsenal.GameCondition_Bilskirnir</conditionClass>
         <label>bilskirnir</label>
-        <description>A freak localized storm is blasting a small area with repeated lightning strikes.</description>
+        <description>The palace of Thor, the source of lightning and storms.</description>
         <endMessage>The flashstorm is over.</endMessage>
         <letterText>A freak localized flashstorm is striking a small area with lightning. This can cause massive fires.</letterText>
         <letterDef>NegativeEvent</letterDef>

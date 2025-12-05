@@ -3,12 +3,12 @@
   "ItemDefName": "King_Zhou_of_Shang",
   "ItemType": "ThingDef",
   "ItemTypeNamespace": "Verse",
-  "OffX": 0.489655584,
-  "OffY": 0.04827618,
+  "OffX": 0.6827592,
+  "OffY": 0.09655236,
   "Rotation": -50.0,
-  "ScaleX": 1.3,
-  "ScaleY": 1.3,
-  "BladeStart": -0.165517345,
-  "BladeEnd": 1.17241383,
-  "MeleeWeaponType": 6
+  "ScaleX": 1.5,
+  "ScaleY": 1.5,
+  "BladeStart": -0.191379413,
+  "BladeEnd": 1.46896577,
+  "MeleeWeaponType": 3
 }

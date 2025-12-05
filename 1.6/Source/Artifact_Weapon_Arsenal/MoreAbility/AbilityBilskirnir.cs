@@ -19,10 +19,9 @@ namespace Artifact_Weapon_Arsenal
             base.Apply(target, dest);
             Map map = this.parent.pawn.Map;
 
-
             // 1. 生成視覺中心點物件 (如果需要)
             // 這裡使用原版的 Flashstorm 物件作為標記，或者你可以定義自己的
-            Thing thing = GenSpawn.Spawn(ThingDefOf.Flashstorm, target.Cell, this.parent.pawn.Map);
+            //Thing thing = GenSpawn.Spawn(ThingDefOf.Flashstorm, target.Cell, this.parent.pawn.Map);
 
             // 2. ❗ 獲取你自定義的 GameConditionDef
             // 使用 DefDatabase.GetNamed 獲取你在 XML 中定義的 "BilskirnirStorm"
@@ -36,7 +35,7 @@ namespace Artifact_Weapon_Arsenal
             cond.Duration = Mathf.RoundToInt((float)this.parent.def.EffectDuration(this.parent.pawn).SecondsToTicks());
             cond.suppressEndMessage = true;
             cond.initialStrikeDelay = new IntRange(0, 60);
-            cond.conditionCauser = thing;
+            cond.conditionCauser = this.parent.pawn;
             cond.ambientSound = true;
             map.gameConditionManager.RegisterCondition((GameCondition)cond);
             this.ApplyGoodwillImpact(target, cond.AreaRadius);
@@ -80,7 +79,7 @@ namespace Artifact_Weapon_Arsenal
         //如果沒有指定範圍（例如隨機事件），風暴半徑會在 45 到 60 格之間隨機決定
         private static readonly IntRange AreaRadiusRange = new IntRange(45, 60);
         //落雷的頻率
-        private static readonly IntRange TicksBetweenStrikes = new IntRange(80, 200);
+        private static readonly IntRange TicksBetweenStrikes = new IntRange(80, 160);
         private const int RainDisableTicksAfterConditionEnds = 30000;
         private const int AvoidConditionCauserExpandRect = 2;
         public IntVec2 centerLocation = IntVec2.Invalid;

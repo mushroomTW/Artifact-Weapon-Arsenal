@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <GreenMushroom_backstory_1.title>绿菇帝国的孩子们</GreenMushroom_backstory_1.title>
+    <GreenMushroom_backstory_1.titleShort>绿菇帝国的孩子们</GreenMushroom_backstory_1.titleShort>
+    <GreenMushroom_backstory_1.description>[PAWN_nameDef] 是绿蘑菇帝国的孩子们，在皇帝的荣耀中成长。</GreenMushroom_backstory_1.description>
+
+    <GreenMushroom_backstory_2.title>绿菇帝国的子民</GreenMushroom_backstory_2.title>
+    <GreenMushroom_backstory_2.titleShort>绿菇帝国的子民</GreenMushroom_backstory_2.titleShort>
+    <GreenMushroom_backstory_2.description>[PAWN_nameDef] 是绿色蘑菇帝国的公民，他们的使命是继续颂扬皇帝的伟大。</GreenMushroom_backstory_2.description>
+
+</LanguageData>

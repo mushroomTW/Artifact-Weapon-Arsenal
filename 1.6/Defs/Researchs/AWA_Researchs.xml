@@ -13,7 +13,7 @@
 
   <ResearchProjectDef ParentName="GM_ResearchProjectBase">
     <defName>BasicWeaponForging</defName>
-    <label>Basic Weapon Forging</label>
+    <label>basic weapon forging</label>
     <description>Craft basic weapons.</description>
     <baseCost>400</baseCost>
     <techLevel>Medieval</techLevel>
@@ -25,9 +25,9 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="GM_ResearchProjectBase">
-    <defName>MythicSword</defName>
-    <label>mythic sword</label>
-    <description>Craft mythicswords.</description>
+    <defName>MythicWeaponForging</defName>
+    <label>mythic weapon forging</label>
+    <description>Craft mythic weapons.</description>
     <baseCost>10000</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>
@@ -36,5 +36,46 @@
     <researchViewX>1</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="GM_ResearchProjectBase">
+    <defName>Entei</defName>
+    <label>entei</label>
+    <description>Craft Entei.</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>MythicWeaponForging</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="GM_ResearchProjectBase">
+    <defName>Mjolnir</defName>
+    <label>mjolnir</label>
+    <description>Craft Mjolnir.</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>MythicWeaponForging</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="GM_ResearchProjectBase">
+    <defName>King_Zhou_of_Shang</defName>
+    <label>King_Zhou_of_Shang</label>
+    <description>Craft King_Zhou_of_Shang.</description>
+    <baseCost>10000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Entei</li>
+      <li>Mjolnir</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
 
 </Defs>

@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseWeapon_Bladelink">
     <defName>Dianqing</defName>
     <label>Dianqing</label>
-    <description>Dianqing's attacks can set enemies on EMP, and his huge blade makes enemies afraid.</description>
+    <description>A weapon enhanced by runes.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Weapons/Dianqing</texPath>
@@ -29,11 +29,11 @@
     <relicChance>1</relicChance>
     <equippedAngleOffset>-50</equippedAngleOffset>
     <costList>
-      <Plasteel>200</Plasteel>
-      <Obsidian>800</Obsidian>
+      <Plasteel>80</Plasteel>
+      <Obsidian>120</Obsidian>
     </costList>
     <tools>
-      <!--<li>
+      <li>
         <label>handle</label>
         <capacities>
           <li>Blunt</li>
@@ -41,13 +41,6 @@
         <power>16</power>
         <cooldownTime>1.3</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
-        <extraMeleeDamages>
-          <li>
-            <def>EMP</def>
-            <amount>10</amount>
-            <chance>1.0</chance>
-          </li>
-        </extraMeleeDamages>
       </li>
       <li>
         <label>point</label>
@@ -57,14 +50,7 @@
         <power>27</power>
         <cooldownTime>1.6</cooldownTime>
         <armorPenetration>1.3</armorPenetration>
-        <extraMeleeDamages>
-          <li>
-            <def>EMP</def>
-            <amount>10</amount>
-            <chance>1.0</chance>
-          </li>
-        </extraMeleeDamages>
-      </li>-->
+      </li>
       <li>
         <label>edge</label>
         <capacities>
@@ -73,22 +59,13 @@
         <power>27</power>
         <cooldownTime>1.4</cooldownTime>
         <armorPenetration>1.5</armorPenetration>
-        <extraMeleeDamages>
-          <li>
-            <def>EMP</def>
-            <amount>10</amount>
-            <chance>1.0</chance>
-          </li>
-        </extraMeleeDamages>
       </li>
     </tools>
-    <comps>
 
-    </comps>
     <recipeMaker>
-      <researchPrerequisite>MythicSword</researchPrerequisite>
+      <researchPrerequisite>MythicWeaponForging</researchPrerequisite>
       <skillRequirements>
-        <Crafting>10</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
       <displayPriority>500</displayPriority>
     </recipeMaker>

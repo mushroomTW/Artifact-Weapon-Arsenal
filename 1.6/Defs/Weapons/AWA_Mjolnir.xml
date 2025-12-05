@@ -4,9 +4,13 @@
     <ThingDef ParentName="BaseWeapon_Bladelink">
         <defName>Mjolnir</defName>
         <label>Mjolnir</label>
-        <description>意譯為雷神之鎚、雷霆戰鎚，是雷神索爾的武器。妙爾尼爾是由一對矮人工匠兄弟打造而成。在鍛造的過程中，洛基變形成飛蟲干擾矮人工匠，
-            因此妙爾尼爾的握柄才會特別短。</description>
+        <description>Mjolnir, literally translated as Thor's hammer or thunder hammer, is the weapon of Thor. It was forged by a pair of dwarven craftsmen. During its forging, Loki transformed into a flying insect to interfere with the craftsmen,
+             which is why Mjolnir's handle is exceptionally short.</description>
         <statBases>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+            <MaxHitPoints>5000</MaxHitPoints>
+            <WorkToMake>45000</WorkToMake>
             <!--<MarketValue>3000</MarketValue>-->
             <Mass>6</Mass>
         </statBases>
@@ -14,6 +18,10 @@
         <meleeHitSound>MeleeHit_BladelinkZeusHammer</meleeHitSound>
         <smeltable>false</smeltable>
         <equippedAngleOffset>135</equippedAngleOffset>
+        <costList>
+            <Steel>600</Steel>
+            <Obsidian>400</Obsidian>
+        </costList>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Weapons/Mjolnir</texPath>
@@ -28,8 +36,8 @@
                 <capacities>
                     <li>Poke</li>
                 </capacities>
-                <power>18</power>
-                <cooldownTime>1.3</cooldownTime>
+                <power>22</power>
+                <cooldownTime>1.0</cooldownTime>
                 <extraMeleeDamages>
                     <li>
                         <def>LightningStrike</def>
@@ -48,8 +56,8 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>35</power>
-                <cooldownTime>2</cooldownTime>
+                <power>40</power>
+                <cooldownTime>1.6</cooldownTime>
                 <extraMeleeDamages>
                     <li>
                         <def>LightningStrike</def>
@@ -73,6 +81,13 @@
                 </AbilitieDefs>
             </li>
         </comps>
+        <recipeMaker>
+            <researchPrerequisite>Mjolnir</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>12</Crafting>
+            </skillRequirements>
+            <displayPriority>500</displayPriority>
+        </recipeMaker>
     </ThingDef>
 
 </Defs>

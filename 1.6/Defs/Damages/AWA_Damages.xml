@@ -50,7 +50,8 @@
         <armorCategory>Heat</armorCategory>
         <defaultDamage>10</defaultDamage>
         <defaultArmorPenetration>2.0</defaultArmorPenetration>
-        <combatLogRules>Damage_InstantDead</combatLogRules>
+        <!--須改-->
+        <combatLogRules>Damage_Flame</combatLogRules>
     </DamageDef>
 
 </Defs>

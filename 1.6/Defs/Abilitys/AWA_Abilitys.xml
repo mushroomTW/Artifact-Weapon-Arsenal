@@ -127,7 +127,7 @@
         <defName>Thunderbolt</defName>
         <label>thunderbolt</label>
         <description>thunderbolt's description.</description>
-        <iconPath>UI/UI_Bilskirnir_icon</iconPath>
+        <iconPath>UI/UI_Thunderbolt_icon</iconPath>
         <aiCanUse>true</aiCanUse>
         <ai_IsIncendiary>true</ai_IsIncendiary>
         <statBases>

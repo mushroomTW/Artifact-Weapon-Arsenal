@@ -4,7 +4,7 @@
     <HediffDef ParentName="RoleStatBuff">
         <defName>Purgatory_hediff</defName>
         <label>Purgatory</label>
-        <description>Driven by fierce moral certainty and stories of ideoligious grievance, this person has driven him or herself into a rage. Every muscle is at peak performance, but it's hard to shut down the anger.</description>
+        <description>Buff effect.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <defaultLabelColor>(1, 0.4, 0)</defaultLabelColor>
         <stages>
@@ -30,8 +30,8 @@
 
     <HediffDef>
         <defName>AWA_LightningProtection</defName>
-        <label>雷神護體</label>
-        <description>暫時獲得對所有傷害的免疫力，以抵禦召喚雷擊時產生的衝擊。</description>
+        <label>Thor's protection</label>
+        <description>Temporarily gain immunity to all damage to withstand the impact of summoning lightning.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <isBad>false</isBad>
         <defaultLabelColor>(0.6, 0.8, 1.0)</defaultLabelColor>

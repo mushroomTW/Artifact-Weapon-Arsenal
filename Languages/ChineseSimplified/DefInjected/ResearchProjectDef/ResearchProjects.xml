@@ -4,7 +4,14 @@
     <BasicWeaponForging.label>基础刀剑锻造</BasicWeaponForging.label>
     <BasicWeaponForging.description>制作基础刀剑.</BasicWeaponForging.description>
 
-    <MythicSword.label>神话刀剑</MythicSword.label>
-    <MythicSword.description>制作神话刀剑.</MythicSword.description>
+    <MythicWeaponForging.label>神秘武器锻造</MythicWeaponForging.label>
+    <MythicWeaponForging.description>制作神秘武器.</MythicWeaponForging.description>
 
+    <Entei.label>炎帝</Entei.label>
+    <Entei.description>制作炎帝.</Entei.description>
+    <Mjolnir.label>雷神之锤</Mjolnir.label>
+    <Mjolnir.description>制作雷神之锤.</Mjolnir.description>
+    <King_Zhou_of_Shang.label>帝辛</King_Zhou_of_Shang.label>
+    <King_Zhou_of_Shang.description>制作帝辛.</King_Zhou_of_Shang.description>
+    
 </LanguageData>

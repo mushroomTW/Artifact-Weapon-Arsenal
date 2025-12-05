@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="BaseWeapon">
     <defName>Pollux</defName>
-    <label>玻呂刻斯</label>
-    <description>惟願「死亡」...捍衛你我！</description>
+    <label>Pollux</label>
+    <description>Only wish that "death"... would protect you and me!</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Weapons/Pollux</texPath>

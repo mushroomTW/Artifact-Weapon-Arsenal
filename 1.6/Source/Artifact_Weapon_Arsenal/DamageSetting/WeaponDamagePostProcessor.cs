@@ -19,7 +19,10 @@ namespace Artifact_Weapon_Arsenal
         {
             "katana",
             "Entei",
-            "Dianqing"
+            "Dianqing",
+            "Wethermon_tachi",
+            "King_Zhou_of_Shang",
+            "Mjolnir"
             // 請確保這裡包含您所有要調整的近戰武器 DefName
         };
 
@@ -38,8 +41,8 @@ namespace Artifact_Weapon_Arsenal
             foreach (ThingDef thingDef in DefDatabase<ThingDef>.AllDefs)
             {
                 // 精確篩選：判斷 DefName 是否在我們定義的列表內
-                //if (AWA_WeaponDefNames.Contains(thingDef.defName))
-               // {
+                if (AWA_WeaponDefNames.Contains(thingDef.defName))
+                {
                     if (thingDef.tools != null)
                     {
                         foreach (Tool tool in thingDef.tools)
@@ -51,7 +54,7 @@ namespace Artifact_Weapon_Arsenal
                             }
                         }
                     }
-                //}
+                }
             }
         }
 

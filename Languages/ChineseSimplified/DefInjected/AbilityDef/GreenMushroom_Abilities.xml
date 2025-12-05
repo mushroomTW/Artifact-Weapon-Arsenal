@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <Zhurong.label>祝融</Zhurong.label>
+    <Zhurong.description>喷出火焰。</Zhurong.description>
+
+    <Purgatory.label>炼狱</Purgatory.label>
+    <Purgatory.description>为自己添加增益效果。</Purgatory.description>
+
+    <Bilskirnir.label>闪电宫</Bilskirnir.label>
+    <Bilskirnir.description>释放强大的闪电群攻击一个区域。</Bilskirnir.description>
+
+    <Thunderbolt.label>雷暴</Thunderbolt.label>
+    <Thunderbolt.description>释放强大的雷电连续电击敌人12次。</Thunderbolt.description>
+    
+</LanguageData>
