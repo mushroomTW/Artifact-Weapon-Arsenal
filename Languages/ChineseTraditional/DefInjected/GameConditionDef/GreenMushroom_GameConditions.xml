@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <Bilskirnir.label>閃電宮</Bilskirnir.label>
+    <Bilskirnir.description>雷神索爾的宮殿，閃電與暴風雨的源泉。</Bilskirnir.description>
+    <Bilskirnir.endMessage>閃電風暴結束了。</Bilskirnir.endMessage>
+    <Bilskirnir.letterText>
+        一場罕見的局部性雷暴襲擊了一小塊區域，閃電劇烈。這可能引發大規模火災。
+    </Bilskirnir.letterText>
+
+</LanguageData>

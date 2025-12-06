@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <BasicWeaponForging.label>基礎刀劍鍛造</BasicWeaponForging.label>
+    <BasicWeaponForging.description>製作基礎刀劍.</BasicWeaponForging.description>
+
+    <MythicWeaponForging.label>神秘武器鍛造</MythicWeaponForging.label>
+    <MythicWeaponForging.description>製作神秘武器.</MythicWeaponForging.description>
+
+    <Entei.label>炎帝</Entei.label>
+    <Entei.description>製作炎帝.</Entei.description>
+    <Mjolnir.label>雷神之錘</Mjolnir.label>
+    <Mjolnir.description>製作雷神之錘.</Mjolnir.description>
+    <King_Zhou_of_Shang.label>帝辛</King_Zhou_of_Shang.label>
+    <King_Zhou_of_Shang.description>製作帝辛.</King_Zhou_of_Shang.description>
+    
+</LanguageData>

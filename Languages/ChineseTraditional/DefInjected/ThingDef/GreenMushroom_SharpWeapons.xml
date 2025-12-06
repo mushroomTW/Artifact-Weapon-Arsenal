@@ -2,40 +2,40 @@
 <LanguageData>
 
     <katana.label>武士刀</katana.label>
-    <katana.description>比长剑更好,应该很适合训练.</katana.description>
+    <katana.description>比長劍更好,應該很適合訓練.</katana.description>
     <katana.tools.point.label>刀尖</katana.tools.point.label>
     <katana.tools.edge.label>刀刃</katana.tools.edge.label>
     <katana.tools.handle.label>刀柄</katana.tools.handle.label>
 
     <Entei.label>炎帝</Entei.label>
-    <Entei.description>炎帝,攻击能点燃敌人,其巨大的刀刃让敌人望而生畏.</Entei.description>
+    <Entei.description>炎帝,攻擊能點燃敵人,其巨大的刀刃讓敵人望而生畏.</Entei.description>
     <Entei.tools.point.label>刀尖</Entei.tools.point.label>
     <Entei.tools.edge.label>刀刃</Entei.tools.edge.label>
     <Entei.tools.handle.label>刀柄</Entei.tools.handle.label>
 
     <Dianqing.label>靛青</Dianqing.label>
-    <Dianqing.description>被符文强化过的武器.</Dianqing.description>
+    <Dianqing.description>被符文強化過的武器.</Dianqing.description>
     <Dianqing.tools.point.label>刀尖</Dianqing.tools.point.label>
     <Dianqing.tools.edge.label>刀刃</Dianqing.tools.edge.label>
     <Dianqing.tools.handle.label>刀柄</Dianqing.tools.handle.label>
 
-    <Wethermon_tachi.label>卫札卫门的太刀</Wethermon_tachi.label>
-    <Wethermon_tachi.description>卫札卫门的太刀.</Wethermon_tachi.description>
+    <Wethermon_tachi.label>衛札衛門的太刀</Wethermon_tachi.label>
+    <Wethermon_tachi.description>衛札衛門的太刀.</Wethermon_tachi.description>
     <Wethermon_tachi.tools.edge.label>刀刃</Wethermon_tachi.tools.edge.label>
     
     <King_Zhou_of_Shang.label>帝辛</King_Zhou_of_Shang.label>
-    <King_Zhou_of_Shang.description>强大,无须多言.</King_Zhou_of_Shang.description>
+    <King_Zhou_of_Shang.description>強大,無須多言.</King_Zhou_of_Shang.description>
     <King_Zhou_of_Shang.tools.edge.label>刀刃</King_Zhou_of_Shang.tools.edge.label>
     <King_Zhou_of_Shang.tools.handle.label>刀柄</King_Zhou_of_Shang.tools.handle.label>
 
-    <Mjolnir.label>妙尔尼尔</Mjolnir.label>
-    <Mjolnir.description>意译为雷神之锤、雷霆战锤，是雷神索尔的武器。妙尔尼尔是由一对矮人工匠兄弟打造而成。在锻造的过程中，洛基变形成飞虫干扰矮人工匠，
-            因此妙尔尼尔的握柄才会特别短。</Mjolnir.description>
-    <Mjolnir.tools.head.label>槌头</Mjolnir.tools.head.label>
+    <Mjolnir.label>妙爾尼爾</Mjolnir.label>
+    <Mjolnir.description>意譯為雷神之錘、雷霆戰錘，是雷神索爾的武器。妙爾尼爾是由一對矮人工匠兄弟打造而成。在鍛造的過程中，洛基變形成飛蟲干擾矮人工匠，
+            因此妙爾尼爾的握柄才會特別短。</Mjolnir.description>
+    <Mjolnir.tools.head.label>槌頭</Mjolnir.tools.head.label>
     <Mjolnir.tools.handle.label>槌柄</Mjolnir.tools.handle.label>
 
-    <Pollux.label>玻吕刻斯</Pollux.label>
-    <Pollux.description>惟愿「死亡」...捍卫你我！</Pollux.description>
+    <Pollux.label>玻呂刻斯</Pollux.label>
+    <Pollux.description>惟願「死亡」...捍衛你我！</Pollux.description>
     <Pollux.tools.edge.label>刀刃</Pollux.tools.edge.label>
     
 

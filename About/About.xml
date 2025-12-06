@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Artifact Weapon Arsenal</name>
+    <name>Artifact Weapon Arsenal(easy)</name>
     <author>綠菇</author>
     <supportedVersions>
         <li>1.6</li>
@@ -13,7 +13,8 @@
 		    <displayName>Anomaly</displayName>
 	    </li>
     </modDependencies>
-  	<description>"Artifact Weapon Arsenal" focus on advanced weapons and ancient equipment to defeat everything.</description>
+  	<description>This is my first self-made mod, so it's very simple. I added a few melee weapons,
+       mainly to learn how to write mods for RimWrath.</description>
     <loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Anomaly</li>

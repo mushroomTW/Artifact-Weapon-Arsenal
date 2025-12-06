@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <Purgatory_hediff.label>煉獄</Purgatory_hediff.label>
+    <Purgatory_hediff.description>增益效果。</Purgatory_hediff.description>
+
+    <AWA_LightningProtection.label>雷神護體</AWA_LightningProtection.label>
+    <AWA_LightningProtection.description>暫時獲得對所有傷害的免疫力，以抵禦召喚雷擊時產生的衝擊。</AWA_LightningProtection.description>
+
+</LanguageData>
