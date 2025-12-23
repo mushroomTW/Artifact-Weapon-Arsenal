@@ -6,15 +6,15 @@
         <li>1.6</li>
     </supportedVersions>
     <packageId>GreenMushroom.Artifact.Weapon.Arsenal</packageId>
-    <modVersion>1.0.0</modVersion>
+    <modVersion>1.0.1</modVersion>
     <modDependencies>
       <li>
 		    <packageId>Ludeon.RimWorld.Anomaly</packageId>
 		    <displayName>Anomaly</displayName>
 	    </li>
     </modDependencies>
-  	<description>This is my first self-made mod, so it's very simple. I added a few melee weapons,
-       mainly to learn how to write mods for RimWrath.</description>
+  	<description>This is my first self-made mod, so it's very simple. I added a few melee weapons (which are very powerful).
+       The main purpose was to learn how to write mods for RimWorld.</description>
     <loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Anomaly</li>

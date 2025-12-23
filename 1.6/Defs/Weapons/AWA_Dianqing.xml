@@ -27,7 +27,7 @@
       <MoveSpeed>0.35</MoveSpeed>
     </equippedStatOffsets>
     <relicChance>1</relicChance>
-    <equippedAngleOffset>-50</equippedAngleOffset>
+    <equippedAngleOffset>-130</equippedAngleOffset>
     <costList>
       <Plasteel>80</Plasteel>
       <Obsidian>120</Obsidian>

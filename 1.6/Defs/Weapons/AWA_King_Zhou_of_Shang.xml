@@ -66,9 +66,9 @@
 
     </comps>
     <recipeMaker>
-      <researchPrerequisite>MythicWeaponForging</researchPrerequisite>
+      <researchPrerequisite>King_Zhou_of_Shang</researchPrerequisite>
       <skillRequirements>
-        <Crafting>10</Crafting>
+        <Crafting>14</Crafting>
       </skillRequirements>
       <displayPriority>1500</displayPriority>
     </recipeMaker>
