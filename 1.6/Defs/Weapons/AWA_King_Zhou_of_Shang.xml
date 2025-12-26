@@ -67,6 +67,10 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>King_Zhou_of_Shang</researchPrerequisite>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
       <skillRequirements>
         <Crafting>14</Crafting>
       </skillRequirements>

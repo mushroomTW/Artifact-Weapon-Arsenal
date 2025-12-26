@@ -83,6 +83,10 @@
         </comps>
         <recipeMaker>
             <researchPrerequisite>Mjolnir</researchPrerequisite>
+            <recipeUsers>
+                <li>FueledSmithy</li>
+                <li>ElectricSmithy</li>
+            </recipeUsers>
             <skillRequirements>
                 <Crafting>12</Crafting>
             </skillRequirements>

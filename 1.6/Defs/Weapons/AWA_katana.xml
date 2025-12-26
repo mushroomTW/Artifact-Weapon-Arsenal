@@ -58,6 +58,10 @@
     </tools>
     <recipeMaker>
       <researchPrerequisite>BasicWeaponForging</researchPrerequisite>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
